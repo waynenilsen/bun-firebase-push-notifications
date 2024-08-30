@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Cloud Messaging Demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Firebase Cloud Messaging Demo</h1>
+        <div class="field">
+          <label class="label">FCM Token:</label>
+          <div class="control">
+            <textarea id="token" class="textarea" readonly></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button id="sendNotification" class="button is-primary">
+              Send Test Notification
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

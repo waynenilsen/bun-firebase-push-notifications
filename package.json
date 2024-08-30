@@ -1,0 +1,19 @@
+{
+  "name": "firebase-cloud-messaging-poc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.4.0",
+    "prettier": "^3.3.3"
+  }
+}
